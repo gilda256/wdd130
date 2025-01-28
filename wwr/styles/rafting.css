@@ -1,8 +1,8 @@
 :root {
-    --primary-color: 
-    --secondary-color: 
-    --accent1-color: 
-    --accent2-color: 
+    --primary-color: #006994;
+    --secondary-color: #2f4f2f;
+    --accent1-color: #ffa500;
+    --accent2-color: #d3d3d3;
 }
 
 h1, h2, h3 {
@@ -32,15 +32,15 @@ footer a img {
 
 h1 {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 50px;
+    left: 50px;
     color: white;
 }
 
 article {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    top: 50px;
+    left: 50px;
     background-color: rgba(0, 0, 0, 0.5); 
     color: white;
     padding: 20px;
