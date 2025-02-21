@@ -1,5 +1,18 @@
 :root{
   --heading-text-color: black;
+  --primary-color: #007BFF; 
+  --secondary-color: darkblue; 
+  --light-background: #f4f4f4; 
+  --card-bg: #eee; 
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: darkblue;
 }
 
 nav {
@@ -10,7 +23,11 @@ nav {
 nav a {
   color: white;
   display: block;
+  padding: 15px 20px;
+}
+main{
   padding: 20px;
+  text-align: center;
 }
 
 h1 {
@@ -21,27 +38,33 @@ h1 {
   width: 150px;
   height: auto;
   border: 1px solid black;
-  padding: 2px;
-  box-shadow: 0 0 30px gray;
+  padding: 5px;
+  box-shadow: 0 0 10px ;
 }
 
 p {
-  padding: 0;
+  padding:10px 0;
+  line-height: 1.6;
+  font-size: 1.1rem;
 }
 
 aside {
-  width: 20rem;
-  margin: 1rem;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
   border: 1px solid rgb(0 0 0 / 0.2); 
-  padding: 1rem;
+  padding: 15px;
   background-color: #eee;
   color: #333;
   text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px
 }
 
 aside img {
-  width: 200px;
+  width: 100%;
   height: auto;
+  border-radius: 8px;
 }
 
 footer {
