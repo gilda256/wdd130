@@ -162,7 +162,6 @@ figure{
     color: rgb(247, 246, 247);
 }
 
-
 footer{
     display: grid;
     grid-template-columns: 1fr 10px;
@@ -182,4 +181,113 @@ footer nav{
     grid-column: 1/2;
     justify-self: center;
     position: absolute;
+}
+    
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1)
+}
+.headline{
+    text-align: center;
+}
+.employees{
+    display: flex;
+    justify-content: space-around;
+    background: #f5f5f5
+}
+.employees img{
+    width: 300px;
+    border-radius: 10px;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.bio h3{
+    font-weight: 450;
+    margin-top: 30px;
+}
+.bio h4{
+    font-weight: 430;
+}
+.headline{
+    text-align: center;
+}
+form {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #f5f5f5
+}
+
+form fieldset {
+    border: none;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.subscribe {
+    text-align: center;   
+}
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    display: block; 
+    width: 100%; 
+    text-align: center;
+}
+
+button:hover {
+    background-color: #222;
 }

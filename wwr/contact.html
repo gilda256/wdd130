@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="Get in touch with us! Find our contact info and form here.">
+    <meta name="author" content="Gilda Asadi">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Bebas+Neue&display=swap" rel="stylesheet">  
+
+</head>
+<body>
+    <header class="header">
+        <img src="images/logo.jpg" alt="logo">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <section class="contact-info" >
+        <h1>Contact Us</h1>
+        <h2>Company Information</h2>
+            <p><strong>Address:</strong> 1 Artsakh Street, Yerevan, Armenia.</p>
+            <p><strong>Phone:</strong> (+374) 91530890 </p>
+            <p><strong>Email:</strong> thrillave@gmail.com</p>
+
+            <div class="map-container"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41026.31696001341!2d44.5184873577549!3d40.15789045425221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sam!4v1739198623725!5m2!1sen!2sam" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <div class="headline"><h1>Meet Our Team</h1></div>
+            <section class="employees">
+            <div class="bio"><img src="images/employee1.jpg" alt="first employee"><h3>Trip coordinator</h3><h4>Victoria</h4></div>
+            <div class="bio"><img src="images/employee2.jpg" alt="second employee"><h3>Rafting Guide</h3><h4>Toni</h4></div>
+            <div class="bio"><img src="images/employee3.jpg" alt="third employee"><h3>Saftey Instructor</h3><h4>Jenny</h4></div>
+        </section>
+
+        <div class="headline"><h1>Contact Form</h1></div>
+        <form action="#" method="post">
+            <section>    
+                
+                 <label for="name">Full Name:</label>
+                 <input type="text" id="name" name="name">
+    
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" name="email">
+    
+                 <fieldset>
+                   
+                    <div class="radio-group">
+                        <legend>Purpose of Message</legend>
+                        <div>
+                            <label for="general">General Inquiry</label>
+                            <input type="radio" id="general" name="purpose">
+                            
+                        </div>
+                         <div>
+                            <label for="reservation">Reservation Question</label>
+                            <input type="radio" id="reservation" name="purpose" >  
+                         </div>
+                         
+                         <div>
+                            <label for="suggestion">Website Suggestion</label>
+                            <input type="radio" id="suggestion" name="purpose">
+                         </div>
+                    </div>               
+            </fieldset>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." rows="8"></textarea>
+            
+            <div class="subscribe">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label> 
+                    <input type="checkbox" name="newsletter" id="newsletter" checked>
+                    
+                
+            </div>
+
+            <button type="submit" id="sendmessage" name="sendmessage">Send Message</button>
+            </section>
+        </form>
+
+        
+    </main> 
+    
+    <footer>
+        <div class="footer-content">
+        <p>&copy;2025 . ThrillWave Rafting . Gilda<a href="https://wireframe.cc/dKtvWb">View Wireframe</a></p></div>
+        <nav>
+            <a href="https://facebook.com" target="_blank"><img src="images/facebooklogo.svg" alt="Facebook" ></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagramlogo.svg" alt="Instagram"></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/twitterlogo.svg" alt="Twitter"></a>
+        </nav>       
+    </footer>
+</body>
+</html>
