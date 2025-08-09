@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #006994;
     --secondary-color: #2f4f2f;
@@ -162,6 +163,7 @@ figure{
     color: rgb(247, 246, 247);
 }
 
+
 footer{
     display: grid;
     grid-template-columns: 1fr 10px;
@@ -182,7 +184,6 @@ footer nav{
     justify-self: center;
     position: absolute;
 }
-    
 .contact-info {
     text-align: center;
     margin-bottom: 20px;
@@ -290,4 +291,229 @@ button {
 
 button:hover {
     background-color: #222;
+}
+
+.calltoaction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+    gap: 30px;
+}
+.calltoaction h2{
+    font-size: 2.5rem;
+    color: #222;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.calltoaction-button{
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 30px;
+    background: linear-gradient(to right, #007bff, #0056b3); ;
+    width: 200px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    
+}
+.calltoaction-button:hover{
+    background: linear-gradient(to right, #0056b3, #003d80);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.newsletter {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-content {
+    max-width: 600px;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.newsletter h1{
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 700; 
+    color: #222;
+}
+
+.newsletter p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}    
+
+.newsletter form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.newsletter form input{
+    border: 2px solid #007bff;
+    border-radius: 30px;
+    padding: 14px 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+    
+.newsletter form input:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+    border-color: #0056b3;
+}
+
+.newsletter button {
+    padding: 15px;
+    border: 0;
+    border-radius: 30px;
+    width: 100%;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter button:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.offers-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 50px;
+}
+
+.images-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    background-color: #f0f0f0; 
+    padding: 20px 40px; 
+    border-radius: 15px; 
+}
+
+.purpose, .special-package {
+    text-align: center;
+}
+
+.purpose h3, .special-package h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.purpose img, .special-package img {
+    width: 350px;
+    border-radius: 10px; 
+}
+.trips {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.trips h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.trip-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.trip {
+    background-color:#f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.trip h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.trip p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.packages {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.packages h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color:  #007BFF;
+    color: white;
+}
+
+.even-row {
+    background-color: #e6f2ff;
+}
+.contact-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-button .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.contact-button .btn:hover {
+    background-color: #0056b3;
 }
